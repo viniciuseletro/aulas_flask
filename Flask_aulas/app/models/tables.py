@@ -37,6 +37,7 @@ class Post(db.Model):
     
     
 class Follow(db.Model):
+    
     __tablename__ = "follow"
     
     id = db.Column(db.Integer, primary_key=True)
